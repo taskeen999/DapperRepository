@@ -28,7 +28,7 @@ namespace DapperRepository
         {
             DtoResponse dtoResponse = new DtoResponse();
             dtoResponse.status = true;
-            dtoResponse.Message = " All records found successsfully.....////";
+            dtoResponse.Message = " All records found successsfully../";
             try
             {
                 dtoResponse = await _employeeRepo.AllEmpRecord();
